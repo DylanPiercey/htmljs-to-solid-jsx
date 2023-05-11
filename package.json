@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@babel/code-frame": "^7.18.6",
+    "@babel/generator": "^7.18.12",
+    "@babel/parser": "^7.18.11",
+    "@babel/types": "^7.18.10",
+    "@marko/language-tools": "^2.0.6",
+    "tsx": "^3.8.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/babel__code-frame": "^7.0.3",
+    "@types/babel__generator": "^7.6.4",
+    "@types/node": "^18.7.15",
+    "@types/prettier": "^2.7.0",
+    "prettier": "^2.7.1"
+  },
+  "scripts": {
+    "start": "tsx start.ts",
+    "bench": "tsx bench.ts"
+  }
+}
